@@ -1,0 +1,72 @@
+html,
+body,
+#root
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+
+canvas
+{
+    touch-action: none;
+}
+
+.htmlScreen iframe
+{
+    width: 1024px;
+    height: 690px;
+    border: none;
+    border-radius: 20px;
+    background: #000000;
+}
+.mobScreen iframe
+{
+    width: 490px;
+    height: 1100px;
+    border: none;
+    border-radius: 40px;
+    background: #000000;
+}
+.ipadScreen iframe
+{
+    width: 1065px;
+    height: 810px;
+    border: none;
+    border-radius: 20px;
+    background: #000000;
+}
+.container {
+    margin: 100px auto;
+    width: 500px;
+    text-align: center;
+  }
+  
+  .progress {
+    padding: 6px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar {	
+    height: 18px;
+      background-color: #ee303c;  
+    border-radius: 4px; 
+    transition: 0.4s linear;  
+    transition-property: width, background-color;    
+  }
+  
+  .progress-striped .progress-bar { 	
+    background-color: #FCBC51; 
+    width: 100%; 
+    background-image: linear-gradient(
+          45deg, rgb(252,163,17) 25%, 
+          transparent 25%, transparent 50%, 
+          rgb(252,163,17) 50%, rgb(252,163,17) 75%,
+          transparent 75%, transparent);
+  }
+  
