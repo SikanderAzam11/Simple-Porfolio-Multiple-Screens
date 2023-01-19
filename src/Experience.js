@@ -4,12 +4,7 @@ import { Model } from './model';
 
 export default function Experience()
 {
-    const computer = useGLTF('./screensfix.glb')
-    console.log(computer); 
-    const {position,rotation} = useControls({
-        position: {value:{x:0,y:0,z:0}, step: 0.5},
-        rotation: {x:0,y:0,z:0}
-    })   
+    const computer = useGLTF('./screensfix.glb')  
     return <>
 
         <color args={ [ '#695b5b' ] } attach="background" />
